@@ -37,7 +37,7 @@ const staticProducts = [
 
 
 export default function Home({products}) {
-console.log( {products} )
+// console.log( {products} )
   
   return (
     <div className="">

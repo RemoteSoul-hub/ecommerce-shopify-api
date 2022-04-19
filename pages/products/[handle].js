@@ -43,7 +43,7 @@ const relatedproducts = [
 
 export default function Handle({ product, products }) {
     const [isLoading, setIsLoading] = useState(false)
-    console.log(product)
+    // console.log(product)
     const image = product.images.edges[0].node
     const variantId = product.variants.edges[0].node.id
 
